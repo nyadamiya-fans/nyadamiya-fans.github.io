@@ -1033,45 +1033,51 @@ links:
   items:
     - {
       title: "bilibili主页",
-      intro: "喵田弥夜Miya的哔哩哔哩个人主页",
+      intro: "Miya的哔哩哔哩个人主页",
       link: "https://space.bilibili.com/846180",
       avatar: "/img/miya_logo.png"
     }
     - {
       title: "bilibili直播间",
-      intro: "喵田弥夜Miya的哔哩哔哩直播间",
+      intro: "Miya的哔哩哔哩直播间",
       link: "https://live.bilibili.com/3012597",
       avatar: "/img/miya_logo.png"
     }
     - {
       title: "Miya的正经猫咪咖啡馆",
-      intro: "喵田弥夜Miya的粉丝群",
+      intro: "Miya的QQ粉丝群",
       link: "https://qm.qq.com/q/xUWO9D7sVG",
       avatar: "https://p.qlogo.cn/gh/565922522/565922522/100/"
     }
     - {
       title: "Miya Button",
-      intro: "听听Miya怎么说",
+      intro: "听听Miya怎么说<br/>(by: 麦麦)",
       link: "http://mai-v6.nyadamiya.com:5000",
       avatar: "/img/avatar.png"
     }
     - {
       title: "Miya Button (镜像)",
-      intro: "听听Miya怎么说 (镜像站)",
+      intro: "听听Miya怎么说<br/>(by: 麦麦) (镜像站)",
       link: "https://button.nyadamiya.com",
       avatar: "/img/avatar.png"
     }
     - {
       title: "Miya Stickers",
-      intro: "看看Miya的表情包",
+      intro: "看看Miya的表情包<br/>(by: 麦麦)",
       link: "http://mai-v6.nyadamiya.com:5001",
       avatar: "/img/avatar.png"
     }
     - {
       title: "Miya Stickers (镜像)",
-      intro: "看看Miya的表情包 (镜像站)",
+      intro: "看看Miya的表情包<br/>(by: 麦麦) (镜像站)",
       link: "https://stickers.nyadamiya.com",
       avatar: "/img/avatar.png"
+    }
+    - {
+      title: "Omega Miya",
+      intro: "非常可爱的萝卜猫",
+      link: "https://github.com/ailitonia/omega-miya",
+      avatar: "https://raw.githubusercontent.com/Ailitonia/omega-miya/master/docs/img/omega-miya-logo.png"
     }
 
   # 当成员头像加载失败时，替换为指定图片
