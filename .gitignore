@@ -16,3 +16,15 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# Specific ignore for Hexo
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
+
+# Ignore temp file
+.DS_Store
+Thumbs.db
+db.json
+*.log
