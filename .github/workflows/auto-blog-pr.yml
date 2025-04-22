@@ -1,0 +1,58 @@
+name: Auto Blog PR from Issue
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  generate-blog-pr:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'post')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+
+      - name: Install Python Dependences
+        run: |
+          pip install -r .github/scripts/requirements.txt
+
+      - name: 解析 Issue 并生成 Hexo 文章
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          python .github/scripts/parse_issue.py "$ISSUE_BODY" "$ISSUE_TITLE" $ISSUE_NUMBER
+
+      - name: 提交更改到新分支
+        env:
+          ISSUE_USER_NAME: ${{ github.event.issue.user.name }}
+          ISSUE_USER_EMAIL: ${{ github.event.issue.user.email }}
+        run: |
+          git config --global user.name "$ISSUE_USER_NAME"
+          git config --global user.email "$ISSUE_USER_EMAIL"
+          git checkout -b "blog-issue-${{ github.event.issue.number }}"
+          git add source/_posts/*
+          git commit -m "Auto-generate post for Issue #${{ github.event.issue.number }}"
+          git push origin "blog-issue-${{ github.event.issue.number }}" --force
+
+      - name: 创建 Pull Request
+        uses: actions/github-script@v5
+        with:
+          script: |
+            await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `投稿 PR: ${github.event.issue.title} (Issue #${github.event.issue.number})`,
+              head: `blog-issue-${github.event.issue.number}`,
+              base: "main",
+              body: `自动化投稿 PR，关联 Issue #${github.event.issue.number}`,
+            })

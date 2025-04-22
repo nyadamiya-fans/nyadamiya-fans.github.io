@@ -1,10 +1,9 @@
 ---
 name: User post
 about: 用户投稿文章
-title: ''
+title: '文章标题'
 labels: post
 assignees: ''
-
 ---
 
 ---
