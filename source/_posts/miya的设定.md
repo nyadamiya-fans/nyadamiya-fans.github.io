@@ -2,7 +2,10 @@
 title: miya的设定
 date: 2025-04-22 16:56:37
 categories:
-tags: Miya, 喵田弥夜, 设定
+tags:
+  - 设定
+  - 喵田弥夜
+  - Miya
 ---
 
 ## Miya 的自我介绍
