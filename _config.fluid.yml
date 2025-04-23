@@ -1053,25 +1053,13 @@ links:
     - {
       title: "Miya Button",
       intro: "听听Miya怎么说<br/>(by: 麦麦)",
-      link: "http://mai-v6.nyadamiya.com:5000",
-      avatar: "/img/avatar.png"
-    }
-    - {
-      title: "Miya Button (镜像)",
-      intro: "听听Miya怎么说<br/>(by: 麦麦) (镜像站)",
-      link: "https://button.nyadamiya.com",
+      link: "http://button.miyafans.com:5000",
       avatar: "/img/avatar.png"
     }
     - {
       title: "Miya Stickers",
       intro: "看看Miya的表情包<br/>(by: 麦麦)",
-      link: "http://mai-v6.nyadamiya.com:5001",
-      avatar: "/img/avatar.png"
-    }
-    - {
-      title: "Miya Stickers (镜像)",
-      intro: "看看Miya的表情包<br/>(by: 麦麦) (镜像站)",
-      link: "https://stickers.nyadamiya.com",
+      link: "http://stickers.miyafans.com:5001",
       avatar: "/img/avatar.png"
     }
     - {
