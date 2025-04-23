@@ -1053,7 +1053,7 @@ links:
     - {
       title: "Miya Button",
       intro: "听听Miya怎么说<br/>(by: 麦麦)",
-      link: "http://button.miyafans.com:5000/",
+      link: "http://button.miyafans.com:5000",
       avatar: "/img/avatar.png"
     }
     - {
