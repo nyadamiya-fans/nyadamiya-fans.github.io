@@ -18,4 +18,6 @@ Ruarua.ru，能一直陪伴着你的长期养成项目......
 
 “Raccon和Miya的联动即将到来！各位探索者们准备好了嘛UwU”
 
+![联动预告图](/img/post/2025-04-23-issue-22-长期养成「ruarua.ru-x-喵田弥夜miya」联动预告.jpg)
+
 [联动内容预览](https://www.bilibili.com/video/BV1kVouY5ErF/) | [动态](https://t.bilibili.com/1057407238765805696)
