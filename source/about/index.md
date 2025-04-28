@@ -1,6 +1,7 @@
 ---
 title: About
 layout: about
+permalink: /
 ---
 
 **梦想是成为大艺术家的小猫咪！**
