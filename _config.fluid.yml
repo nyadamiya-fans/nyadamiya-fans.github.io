@@ -368,12 +368,17 @@ navbar:
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
-    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
-    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "post", link: "/submit/", icon: "iconfont icon-pen", name: "投稿" }
+    # - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    # - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    # - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    # - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "bilispace", link: "https://space.bilibili.com/846180", icon: "iconfont icon-bilibili-fill", name: "B站空间" }
+    - { key: "bililive", link: "https://live.bilibili.com/3012597", icon: "iconfont icon-bilibili-fill", name: "B站直播间" }
+    - { key: "miyabutton", link: "http://button.miyafans.com:5000", icon: "iconfont icon-link-fill", name: "Miya按钮" }
+    - { key: "miyastickers", link: "http://stickers.miyafans.com:5001", icon: "iconfont icon-link-fill", name: "Miya表情" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "post", link: "/submit/", icon: "iconfont icon-pen", name: "投稿" }
+    - { key: "blog", link: "/blog/", icon: "iconfont icon-archive-fill", name: "文章" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -448,8 +453,6 @@ footer:
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Powered by Hexo</span></a>
-    <i class="iconfont icon-love"></i>
-    <a href="https://space.bilibili.com/846180" target="_blank" rel="nofollow noopener"><span>喵田弥夜Miya</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/nyadamiya-fans/nyadamiya.github.io" target="_blank" rel="nofollow noopener"><span>Source</span></a>
     <i class="iconfont icon-love"></i>
@@ -1032,18 +1035,6 @@ links:
   # 友链的成员项
   # Member item of page
   items:
-    - {
-      title: "bilibili主页",
-      intro: "Miya的哔哩哔哩个人主页",
-      link: "https://space.bilibili.com/846180",
-      avatar: "/img/miya_logo.png"
-    }
-    - {
-      title: "bilibili直播间",
-      intro: "Miya的哔哩哔哩直播间",
-      link: "https://live.bilibili.com/3012597",
-      avatar: "/img/miya_logo.png"
-    }
     - {
       title: "Miya的正经猫咪咖啡馆",
       intro: "Miya的QQ粉丝群",

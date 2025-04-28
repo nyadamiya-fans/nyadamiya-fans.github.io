@@ -1,6 +1,7 @@
 ---
 title: About
 layout: about
+permalink: /
 ---
 
 **梦想是成为大艺术家的小猫咪！**
@@ -12,3 +13,11 @@ layout: about
 喜欢的游戏公司是falcom。 擅长绘画，模型立绘为自己所制，人设是和朋友一起决定的。
 
 虚拟UP努力中！ 画画玩游戏和聊天都会继续努力！ 当然摸鱼也是必不可少的~ 努力练习唱歌，不玩恐怖游戏>A<
+
+## 在哪里可以找到 Miya
+
+- [bilibili 个人空间](https://space.bilibili.com/846180)
+- [bilibili 直播间](https://live.bilibili.com/3012597)
+- [bilibili 工坊](https://b23.tv/aBWiBI0)
+- [米画师-喵田弥夜Miya](https://www.mihuashi.com/profiles/102775)
+- [萌娘百科-喵田弥夜](https://zh.moegirl.org.cn/%E5%96%B5%E7%94%B0%E5%BC%A5%E5%A4%9C)
