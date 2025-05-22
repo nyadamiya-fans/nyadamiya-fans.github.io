@@ -374,8 +374,8 @@ navbar:
     # - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "bilispace", link: "https://space.bilibili.com/846180", icon: "iconfont icon-bilibili-fill", name: "B站空间" }
     - { key: "bililive", link: "https://live.bilibili.com/3012597", icon: "iconfont icon-bilibili-fill", name: "B站直播间" }
-    - { key: "miyabutton", link: "http://button.miyafans.com:5000", icon: "iconfont icon-link-fill", name: "Miya按钮" }
-    - { key: "miyastickers", link: "http://stickers.miyafans.com:5001", icon: "iconfont icon-link-fill", name: "Miya表情" }
+    - { key: "miyabutton", link: "https://button.miyafans.com", icon: "iconfont icon-link-fill", name: "Miya按钮" }
+    - { key: "miyastickers", link: "https://stickers.miyafans.com", icon: "iconfont icon-link-fill", name: "Miya表情" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - { key: "post", link: "/submit/", icon: "iconfont icon-pen", name: "投稿" }
     - { key: "blog", link: "/blog/", icon: "iconfont icon-archive-fill", name: "文章" }
@@ -680,7 +680,7 @@ post:
     # CreativeCommons license
     # See: https://creativecommons.org/share-your-work/cclicenses/
     # Options: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND | ZERO
-    license: 'BY'
+    license: 'BY-NC-SA'
 
     # 显示作者
     author:
@@ -1044,14 +1044,14 @@ links:
     - {
       title: "Miya Button",
       intro: "听听Miya怎么说<br/>(by: 麦麦)",
-      link: "http://button.miyafans.com:5000",
-      avatar: "/img/avatar.png"
+      link: "https://button.miyafans.com",
+      avatar: "https://button.miyafans.com/logo.png"
     }
     - {
       title: "Miya Stickers",
       intro: "看看Miya的表情包<br/>(by: 麦麦)",
-      link: "http://stickers.miyafans.com:5001",
-      avatar: "/img/avatar.png"
+      link: "https://stickers.miyafans.com",
+      avatar: "https://stickers.miyafans.com/logo.png"
     }
     - {
       title: "Omega Miya",
